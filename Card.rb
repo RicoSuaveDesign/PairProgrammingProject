@@ -16,6 +16,7 @@ class Card
         self.suit = suit
     end
 
+
     def print()
         retval = ""
 
