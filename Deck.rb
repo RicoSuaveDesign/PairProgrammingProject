@@ -29,6 +29,12 @@ class Deck
         @deck.pop(num)
 
     end
+
+    def return(cards)
+
+        @deck.push(*cards)
+
+    end
     
 
 end

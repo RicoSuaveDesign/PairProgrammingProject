@@ -27,7 +27,7 @@ class TestDeck < Test::Unit::TestCase
         assert_not_equal(@d1.deck[45],@d2.deck[45])
         assert_not_equal(@d1.deck[50],@d2.deck[50])
 
-        hand = d1.deal(10)
+        hand = @d1.deal(10)
         assert_equal(10, hand.length)
         assert_equal(42, @d1.deck.length())
         @d1.return(hand)
